@@ -1,3 +1,5 @@
+require "pry"
+
 class Book
   attr_accessor :author, :page_count
   attr_reader :title, :genre 
@@ -20,3 +22,5 @@ class Book
 
 
 end
+
+binding.pry
